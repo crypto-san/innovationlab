@@ -1,0 +1,28 @@
+console.log(String(false));
+console.log(String("321"));
+console.log(String(undefined));
+console.log(String(null));
+
+console.log(Number("abc")); 
+console.log(Number("654")); 
+console.log(Number(false)); 
+console.log(Number(undefined)); 
+console.log(Number(null)); 
+console.log(Number(true)); 
+
+console.log("6" - 2); 
+console.log("5" + 4); 
+console.log(true + 5); 
+console.log(false + 9);
+
+
+
+let string = "432";
+let num = Number(string);
+console.log(num); 
+console.log(typeof num);
+
+let number = 789;
+let str = String(number);
+console.log(str); 
+console.log(typeof str);
