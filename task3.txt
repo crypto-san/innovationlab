@@ -1,0 +1,37 @@
+let a = 15; b = 4;
+console.log(a + b);        
+console.log(a - b);   
+console.log(a * b);   
+console.log(a / b);     
+console.log(a % b);    
+
+let x = 8;
+x += 5; 
+console.log(x);  
+x -= 3;
+console.log(x); 
+
+let m = 20;
+let n = "20";
+console.log(m == n);   
+console.log(m === n);  
+console.log(m != n);   
+console.log(m !== n); 
+console.log(m > 10);   
+console.log(m < 10);
+console.log(m <= 20);  
+console.log(m >= 15);
+
+let p = false;
+let q = true;
+console.log(p && q);  
+console.log(p || q);  
+console.log(!p);     
+
+let count = 2;
+console.log(count);    
+count++;
+console.log(count);    
+
+count--;
+console.log(count);
